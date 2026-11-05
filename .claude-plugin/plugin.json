@@ -1,0 +1,14 @@
+{
+  "name": "humanizer-tr",
+  "description": "Yapay zekâ gibi duyulan Türkçe metni, söylediğini değiştirmeden bir insan yazmış gibi doğallaştırır.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kenan Efe Genç",
+    "url": "https://github.com/kenosdota"
+  },
+  "homepage": "https://github.com/kenosdota/humanizer-tr",
+  "repository": "https://github.com/kenosdota/humanizer-tr",
+  "license": "MIT",
+  "keywords": ["turkish", "türkçe", "writing", "editing", "humanizer", "prose"],
+  "skills": ["./"]
+}

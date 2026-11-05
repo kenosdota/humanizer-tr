@@ -1,0 +1,43 @@
+name: Hatalı düzeltme
+description: Skill bir izi kaçırdı, anlamı değiştirdi, bilgi ekledi ya da doğru bir cümleyi bozdu.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: sorun
+    attributes:
+      label: Ne yanlış gitti?
+      options:
+        - Bir iz düzeltmeden sonra da kaldı
+        - Düzeltme bir bilgi ekledi ya da bir bilgiyi sildi
+        - Türkçede doğal olan bir ifade değiştirildi
+        - Başka bir şey
+    validations:
+      required: true
+  - type: textarea
+    id: girdi
+    attributes:
+      label: Skill'e verdiğin metin
+      description: Kişisel bilgileri çıkar.
+    validations:
+      required: true
+  - type: textarea
+    id: nasil
+    attributes:
+      label: Skill'i nasıl çağırdın?
+      description: Kullandığın araç ve model, yazdığın komut.
+      placeholder: "Claude Code: /humanizer-tr ve ardından metin"
+    validations:
+      required: true
+  - type: textarea
+    id: cikti
+    attributes:
+      label: Skill'in döndürdüğü metin
+    validations:
+      required: true
+  - type: textarea
+    id: beklenen
+    attributes:
+      label: Ne yapması gerekirdi?
+      description: Yanlış olan cümleyi yaz ve dikkatli bir yazarın onu nasıl yazacağını söyle.
+    validations:
+      required: true

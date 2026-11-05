@@ -1,0 +1,24 @@
+name: Yeni yapay zekâ izi
+description: Türkçe metinde skill'in henüz yakalamadığı bir yapay zekâ izi.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: ornek
+    attributes:
+      label: Örnek
+      description: İzi gösteren gerçek bir metin. Kişisel bilgileri çıkar.
+    validations:
+      required: true
+  - type: textarea
+    id: dogal
+    attributes:
+      label: Bir insan bunu nasıl yazardı?
+    validations:
+      required: true
+  - type: textarea
+    id: neden
+    attributes:
+      label: Neden yapay duruyor?
+      description: Mevcut kalıplardan hangisine en yakın ve neden onunla yakalanmıyor? Biliyorsan yaz.
+    validations:
+      required: false

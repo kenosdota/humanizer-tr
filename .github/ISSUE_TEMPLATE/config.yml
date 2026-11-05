@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Yapay zekâ dedektörleri hâlâ yakalıyor
+    url: https://github.com/kenosdota/humanizer-tr#neleri-yapmaz
+    about: Dedektörleri atlatmak bu skill'in amacı değil; metni insan okur için düzeltir.
